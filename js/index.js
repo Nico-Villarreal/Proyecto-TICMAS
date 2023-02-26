@@ -12,7 +12,7 @@ function divInfoArticle() {
                             <h1 class="text-center">Info Developer</h1>
                             <div class="d-flex justify-content-center flex-column m-3">
                                 <div class="text-center m-3">
-                                    <img src="../image/foto.jpg" alt="foto perosonal" class="w-25 rounded-circle border border-dark border-3">
+                                    <img src="./image/foto.jpg" alt="foto perosonal" class="w-25 rounded-circle border border-dark border-3">
                                 </div>
                                 <div class="d-flex flex-column justify-content-center">
                                      <h2 class="text-center">FrontEnd Developer</h2>
@@ -50,7 +50,7 @@ function divTechnologies(technologies) {
                                     ${tecnologia}
                                 </h2>
                                 <div class="d-flex justify-content-center p-5">
-                                    <img src="../image/${img}" alt="${tecnologia}" class="rounded-circle border border-dark border-4 w-50">
+                                    <img src="./image/${img}" alt="${tecnologia}" class="rounded-circle border border-dark border-4 w-50">
                                 </div>
                             </div>
                         `;
@@ -58,15 +58,14 @@ function divTechnologies(technologies) {
   });
 }
 
-
 function printRedes() {
   let divRedes = document.createElement("div");
   divRedes.classList.add("d-flex", "justify-content-evenly", "p-3");
   divRedes.innerHTML = `
-                        <img src="../image/facebook.png" alt="facebook" class="m-3 rounded-circle border border-2 border-dark"/>
-                        <img src="../image/linkedin.png" alt="linkedin" class="m-3 rounded-circle border border-2 border-dark"/>
-                        <img src="../image/github.png" alt="github" class="m-3 rounded-circle border border-2 border-dark"/>
-                        <img src="../image/instagram.png" alt="instagram" class="m-3 rounded-circle border border-2 border-dark"/>
+                        <img src="./image/facebook.png" alt="facebook" class="m-3 rounded-circle border border-2 border-dark"/>
+                        <img src="./image/linkedin.png" alt="linkedin" class="m-3 rounded-circle border border-2 border-dark"/>
+                        <img src="./image/github.png" alt="github" class="m-3 rounded-circle border border-2 border-dark"/>
+                        <img src="./image/instagram.png" alt="instagram" class="m-3 rounded-circle border border-2 border-dark"/>
                         `;
   redes.appendChild(divRedes);
 }
@@ -92,7 +91,7 @@ function divFormacion(formacion) {
         divFormacion.innerHTML = `
                                 <div class="d-flex">
                                     <div class="card border-dark" style="width: 17rem;">
-                                        <img src="../image/${img}" class="card-img-top" alt="${name}">
+                                        <img src="./image/${img}" class="card-img-top" alt="${name}">
                                         <div class="card-body">
                                             <p class="card-text d-flex justify-content-center align-items-center">${name}</p>
                                         </div>

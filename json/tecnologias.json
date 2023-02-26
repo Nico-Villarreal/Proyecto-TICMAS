@@ -1,0 +1,18 @@
+[
+    {
+        "tecnologia": "HTML",
+        "img": "HTML.png"
+    },
+    {
+        "tecnologia": "CSS",
+        "img": "CSS.png"
+    },
+    {
+        "tecnologia": "JavaScript",
+        "img": "JAVASCRIPT.png"
+    },
+    {
+        "tecnologia": "React JS",
+        "img": "REACT.png"
+    }
+]

@@ -4,44 +4,115 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="../css/css.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/css.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Proyecto Final TICMAS | CV Nicolas Villarreal</title>
   </head>
   <body>
-    <header >
-      <div class="d-flex justify-content-around p-4 bg-secondary align-items-center">
-        <div >
-          <img src="../image/logo.png" alt="logo-proyecto" class="w-75 rounded border border-dark"/>
+    <header>
+      <div
+        class="header d-flex justify-content-around p-4 align-items-center"
+      >
+        <div>
+          <a href="./index.html">          
+            <img
+            src="../image/logo.png"
+            alt="logo-proyecto"
+            class="w-75 rounded border border-dark"
+          />
+        </a>
         </div>
         <div class="d-flex flex-row mx-5 align-items-center">
-          <ul class="mx-2 bg-light rounded p-2 text-center border border-dark">Home</ul>
-          <ul class="mx-2 bg-light rounded p-2 text-center border border-dark">Tecnologias</ul>
-          <ul class="mx-2 bg-light rounded p-2 text-center border border-dark">Contacto</ul>
-          <ul class="mx-2 bg-light rounded p-2 text-center border border-dark">Busqueda</ul>
-        </div>
-        <div>
-          <input type="search" label="busqueda" class="border border-dark rounded p-2" />
+          <ul class="mx-2 bg-light rounded p-2 text-center border border-dark">
+             <a href="../html/index.html">Home</a>
+          </ul>
+          <ul class="mx-2 bg-light rounded p-2 text-center border border-dark">
+            <a href="./index.html#tecnologias">Tecnologias</a> 
+          </ul>
+          <ul class="mx-2 bg-light rounded p-2 text-center border border-dark">
+            <a href="./index.html#contact">Contacto</a> 
+          </ul>
+          <ul class="mx-2 bg-light rounded p-2 text-center border border-dark">
+            <a href="./index.html#formacionAcademica">Formacion</a> 
+          </ul>
         </div>
       </div>
     </header>
     <main>
-      <section>
-        <div class="d-flex justify-content-center my-5">
-          <h1>Info Personal</h1>
+      <section class="sectionInfo">
+        <div id="infoPersonal">
+
         </div>
       </section>
+      <section class="sectionTechnologies">
+        <div class="pt-5 ">
+          <h2 class="text-center mb-3">
+             TECNOLOGIAS 
+          </h2>
+        </div>
+        <div id="tecnologias" class="technologies" data-aos="flip-down" data-aos-duration="2000">
+
+        </div>
+      </section>
+      <section class="sectionFormation">
+        <div>
+          <h3 class="text-center pt-5">
+              Cursos y Capacitaciones
+          </h3>    
+        </div>
+        <div id="formacionAcademica" class="formAcademy p-5" data-aos="fade-up" data-aos-duration="3000">
+
+        </div>
+      </section>
+      <section id="contact" class="sectionContact p-5 d-flex flex-column align-items-center">
+        <h2 class="p-4">Formulario de Contacto</h2>
+        <div class="d-flex justify-content-evenly w-50 border border-dark p-3 rounded-3 bg-light">
+          <div class="d-flex flex-column ">
+            <div class="mb-3">
+              <label class="form-label">Nombre y Apellido</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name...">
+            </div>
+            <div class="mb-3">
+              <label  class="form-label">Telefono</label>
+              <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+549....">
+            </div>
+            <div class="mb-3">
+              <label  class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <button id="botonEnviar" type="button" class="btn btn-secondary border">Enviar</button>
+          </div>
+          <div>
+            <div class="mb-3">
+              <label class="form-label">Escribe aqui...</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
     </main>
-    <footer>
-      <div class="d-flex justify-content-around">
-        <img src="" alt="facebook" />
-        <img src="" alt="linkedin" />
-        <img src="" alt="github" />
-        <img src="" alt="instagram" />
-      </div>
+    <footer class="footer">
+      <section> 
+        <div id="redes" class="d-flex justify-content-evenly">
+
+        </div>
+        <div>
+          <p class="text-center text-light">
+            ©NickDev Todos los derechos Reservados
+          </p>
+        </div>
+      </section>
     </footer>
 
     <script src="../js/bootstrap.js"></script>
     <script src="../js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

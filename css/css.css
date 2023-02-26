@@ -1,7 +1,51 @@
-a{
-    text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
 
+*{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+a {
+    color: black;
+    text-decoration: none; 
+    font-size: 1.5rem;
+}
+a:visited{
+    color: black;
 }
 ul{
-    list-style-type: none
+    list-style-type: none;
+}
+.header{
+    background-color:#131410;
+}
+.footer{
+    background-color: #131410;
+}
+.sectionTechnologies{
+    background-color:#eee4d0;
+}
+
+.sectionFormation{
+    background-color: #cfa67c;
+}
+.sectionInfo{
+    background-color: #F5F6ED;
+    background-image: url(../image/desarrollo2.png);
+}
+
+.sectionContact{
+    background-color: #eee4d0;
+}
+.formAcademy{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+        gap: 1rem; 
+    }
+
+.technologies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 2.5rem; 
 }

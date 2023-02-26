@@ -1,0 +1,27 @@
+[
+    {
+        "img": "AluraLatam.png",
+        "name": "Formación Principiante en Programación G4 - ONE"
+    },
+    {
+        "img":"ArgProgm.png",
+        "name": "Argentina Programa 4.0"
+    },
+    {
+        "img": "CoderDW.png",
+        "name": "CoderHouse - Desarrollo WEB"
+    },
+    {
+        "img": "CoderJS.png",
+        "name": "CoderHouse - JavaScript"
+    },
+    {
+        "img": "GoogleActivate1.png",
+        "name": "Curso de Introducción al Desarrollo Web: HTML y CSS (1/2)"
+    },
+    {
+        "img": "GoogleActivate2.png",
+        "name": "Curso de Introducción al Desarrollo Web: HTML y CSS (2/2)"
+    }
+
+]

@@ -50,7 +50,7 @@ function divTechnologies(technologies) {
                                     ${tecnologia}
                                 </h2>
                                 <div class="d-flex justify-content-center p-5">
-                                    <img src="./image/${img}" alt="${tecnologia}" class="rounded-circle border border-dark border-4 w-50">
+                                    <img src="./image/${img}" alt="${tecnologia}" class="imgTech rounded-circle border border-dark border-4">
                                 </div>
                             </div>
                         `;

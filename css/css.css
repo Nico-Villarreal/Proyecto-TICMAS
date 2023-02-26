@@ -44,3 +44,22 @@ ul{
     grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
     gap: 2.5rem; 
 }
+.imgTech{
+    width: 75% ;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important; 
+}
+
+@media (max-width: 1024px) {
+    .imgTech{
+            width: 250% !important;
+        }
+    }
+
+@media (max-width: 768px) {
+    .technologies{
+        gap: 3rem;
+        }
+    }

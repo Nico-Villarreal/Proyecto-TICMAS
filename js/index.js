@@ -28,7 +28,7 @@ function divInfoArticle() {
 
 //llamando a JSON local para pintar las tecnologias adquiridas
 async function printTechnologies() {
-  const url = "../json/tecnologias.json";
+  const url = "./json/tecnologias.json";
 
   try {
     const resultado = await fetch(url);
@@ -72,7 +72,7 @@ function printRedes() {
 
 //llamando JSON local para pintar la formacion academica
 async function printFormacion() {
-    const url = "../json/formacion.json";
+    const url = "./json/formacion.json";
   
     try {
       const resultado = await fetch(url);

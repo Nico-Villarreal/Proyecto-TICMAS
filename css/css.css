@@ -38,11 +38,6 @@ ul{
 .sectionContact{
     background-color: #eee4d0;
 }
-.formAcademy{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
-        gap: 1rem; 
-    }
 
 .technologies{
     display: grid;
